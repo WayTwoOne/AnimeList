@@ -1,0 +1,16 @@
+query AnimeListQuery($page: Int) {
+  Page(page: $page) {
+    mediaList {
+      media {
+        title {
+          english
+          native
+        }
+        coverImage {
+          extraLarge
+        }
+        description
+      }
+    }
+  }
+}

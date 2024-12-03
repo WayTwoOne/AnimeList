@@ -7,18 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E749CA2D2CFF502B00E81B12 /* AnimeListSchema in Frameworks */ = {isa = PBXBuildFile; productRef = E749CA2C2CFF502B00E81B12 /* AnimeListSchema */; };
+		E749CA332CFF51B000E81B12 /* AnimeDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E749CA322CFF51B000E81B12 /* AnimeDetailsScreen.swift */; };
+		E749CA352CFF51F700E81B12 /* AnimeListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E749CA342CFF51F700E81B12 /* AnimeListScreen.swift */; };
+		E749CA372CFF520F00E81B12 /* AnimeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E749CA362CFF520F00E81B12 /* AnimeRowView.swift */; };
 		E768B1642CFF3E4E00213534 /* AnimeListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E768B1632CFF3E4E00213534 /* AnimeListApp.swift */; };
 		E768B1662CFF3E4E00213534 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E768B1652CFF3E4E00213534 /* ContentView.swift */; };
 		E768B1682CFF3E4F00213534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E768B1672CFF3E4F00213534 /* Assets.xcassets */; };
 		E768B16B2CFF3E4F00213534 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E768B16A2CFF3E4F00213534 /* Preview Assets.xcassets */; };
+		E768B17A2CFF405A00213534 /* schema.graphqls in Resources */ = {isa = PBXBuildFile; fileRef = E768B1792CFF405A00213534 /* schema.graphqls */; };
+		E768B1882CFF440800213534 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = E768B1872CFF440800213534 /* Network.swift */; };
+		E768B18B2CFF449200213534 /* AnimeListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E768B18A2CFF449200213534 /* AnimeListModel.swift */; };
+		E768B18E2CFF4A3B00213534 /* AnimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E768B18D2CFF4A3B00213534 /* AnimeViewModel.swift */; };
+		E768B1902CFF4E9B00213534 /* AnimeListQuery.graphql in Resources */ = {isa = PBXBuildFile; fileRef = E768B18F2CFF4E9B00213534 /* AnimeListQuery.graphql */; };
+		E79403E22CFF5932009CA9F8 /* Apollo+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79403E12CFF5932009CA9F8 /* Apollo+Extention.swift */; };
+		E79403EA2CFF5C15009CA9F8 /* Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79403E92CFF5C15009CA9F8 /* Publisher.swift */; };
+		E79403EC2CFF5C3C009CA9F8 /* Subscruber.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79403EB2CFF5C3C009CA9F8 /* Subscruber.swift */; };
+		E79403EF2CFF5D79009CA9F8 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = E79403EE2CFF5D79009CA9F8 /* Apollo */; };
+		E79403F12CFF5D79009CA9F8 /* ApolloSQLite in Frameworks */ = {isa = PBXBuildFile; productRef = E79403F02CFF5D79009CA9F8 /* ApolloSQLite */; };
+		E79D74F22CFFA8A700A9913D /* ApolloCombine in Frameworks */ = {isa = PBXBuildFile; productRef = E79D74F12CFFA8A700A9913D /* ApolloCombine */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E749CA2B2CFF501400E81B12 /* AnimeListGraphQl */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = AnimeListGraphQl; sourceTree = "<group>"; };
+		E749CA322CFF51B000E81B12 /* AnimeDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailsScreen.swift; sourceTree = "<group>"; };
+		E749CA342CFF51F700E81B12 /* AnimeListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListScreen.swift; sourceTree = "<group>"; };
+		E749CA362CFF520F00E81B12 /* AnimeRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeRowView.swift; sourceTree = "<group>"; };
 		E768B1602CFF3E4E00213534 /* AnimeList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimeList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E768B1632CFF3E4E00213534 /* AnimeListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListApp.swift; sourceTree = "<group>"; };
 		E768B1652CFF3E4E00213534 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E768B1672CFF3E4F00213534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E768B16A2CFF3E4F00213534 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E768B1792CFF405A00213534 /* schema.graphqls */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = schema.graphqls; sourceTree = "<group>"; };
+		E768B1872CFF440800213534 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		E768B18A2CFF449200213534 /* AnimeListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListModel.swift; sourceTree = "<group>"; };
+		E768B18D2CFF4A3B00213534 /* AnimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeViewModel.swift; sourceTree = "<group>"; };
+		E768B18F2CFF4E9B00213534 /* AnimeListQuery.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = AnimeListQuery.graphql; sourceTree = "<group>"; };
+		E79403E12CFF5932009CA9F8 /* Apollo+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Apollo+Extention.swift"; sourceTree = "<group>"; };
+		E79403E92CFF5C15009CA9F8 /* Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publisher.swift; sourceTree = "<group>"; };
+		E79403EB2CFF5C3C009CA9F8 /* Subscruber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscruber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +53,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E749CA2D2CFF502B00E81B12 /* AnimeListSchema in Frameworks */,
+				E79D74F22CFFA8A700A9913D /* ApolloCombine in Frameworks */,
+				E79403EF2CFF5D79009CA9F8 /* Apollo in Frameworks */,
+				E79403F12CFF5D79009CA9F8 /* ApolloSQLite in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E749CA2E2CFF511B00E81B12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E749CA362CFF520F00E81B12 /* AnimeRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E749CA2F2CFF512700E81B12 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E749CA302CFF512F00E81B12 /* Main */,
+				E749CA312CFF514800E81B12 /* Additional */,
+				E749CA2E2CFF511B00E81B12 /* Views */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E749CA302CFF512F00E81B12 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E749CA342CFF51F700E81B12 /* AnimeListScreen.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E749CA312CFF514800E81B12 /* Additional */ = {
+			isa = PBXGroup;
+			children = (
+				E749CA322CFF51B000E81B12 /* AnimeDetailsScreen.swift */,
+			);
+			path = Additional;
+			sourceTree = "<group>";
+		};
 		E768B1572CFF3E4E00213534 = {
 			isa = PBXGroup;
 			children = (
+				E768B1812CFF43BA00213534 /* Packages */,
 				E768B1622CFF3E4E00213534 /* AnimeList */,
 				E768B1612CFF3E4E00213534 /* Products */,
+				E768B1832CFF43C900213534 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +118,13 @@
 		E768B1622CFF3E4E00213534 /* AnimeList */ = {
 			isa = PBXGroup;
 			children = (
+				E768B1782CFF405A00213534 /* GraphQL */,
 				E768B1632CFF3E4E00213534 /* AnimeListApp.swift */,
 				E768B1652CFF3E4E00213534 /* ContentView.swift */,
+				E749CA2F2CFF512700E81B12 /* Screens */,
+				E768B18C2CFF4A2B00213534 /* ViewModels */,
+				E768B1892CFF447F00213534 /* Models */,
+				E768B1862CFF43E200213534 /* NetworkService */,
 				E768B1672CFF3E4F00213534 /* Assets.xcassets */,
 				E768B1692CFF3E4F00213534 /* Preview Content */,
 			);
@@ -65,6 +137,66 @@
 				E768B16A2CFF3E4F00213534 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E768B1782CFF405A00213534 /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				E768B17B2CFF407E00213534 /* Queries */,
+			);
+			name = GraphQL;
+			path = AnimeList/GraphQL;
+			sourceTree = SOURCE_ROOT;
+		};
+		E768B17B2CFF407E00213534 /* Queries */ = {
+			isa = PBXGroup;
+			children = (
+				E768B1792CFF405A00213534 /* schema.graphqls */,
+				E768B18F2CFF4E9B00213534 /* AnimeListQuery.graphql */,
+			);
+			path = Queries;
+			sourceTree = "<group>";
+		};
+		E768B1812CFF43BA00213534 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				E749CA2B2CFF501400E81B12 /* AnimeListGraphQl */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		E768B1832CFF43C900213534 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E768B1862CFF43E200213534 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				E768B1872CFF440800213534 /* Network.swift */,
+				E79403E12CFF5932009CA9F8 /* Apollo+Extention.swift */,
+				E79403E92CFF5C15009CA9F8 /* Publisher.swift */,
+				E79403EB2CFF5C3C009CA9F8 /* Subscruber.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		E768B1892CFF447F00213534 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E768B18A2CFF449200213534 /* AnimeListModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E768B18C2CFF4A2B00213534 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E768B18D2CFF4A3B00213534 /* AnimeViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +215,12 @@
 			dependencies = (
 			);
 			name = AnimeList;
+			packageProductDependencies = (
+				E749CA2C2CFF502B00E81B12 /* AnimeListSchema */,
+				E79403EE2CFF5D79009CA9F8 /* Apollo */,
+				E79403F02CFF5D79009CA9F8 /* ApolloSQLite */,
+				E79D74F12CFFA8A700A9913D /* ApolloCombine */,
+			);
 			productName = AnimeList;
 			productReference = E768B1602CFF3E4E00213534 /* AnimeList.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +249,10 @@
 				Base,
 			);
 			mainGroup = E768B1572CFF3E4E00213534;
+			packageReferences = (
+				E79403ED2CFF5D79009CA9F8 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				E79D74F02CFFA8A700A9913D /* XCRemoteSwiftPackageReference "ApolloCombine" */,
+			);
 			productRefGroup = E768B1612CFF3E4E00213534 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E768B16B2CFF3E4F00213534 /* Preview Assets.xcassets in Resources */,
+				E768B17A2CFF405A00213534 /* schema.graphqls in Resources */,
+				E768B1902CFF4E9B00213534 /* AnimeListQuery.graphql in Resources */,
 				E768B1682CFF3E4F00213534 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +281,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E768B18E2CFF4A3B00213534 /* AnimeViewModel.swift in Sources */,
+				E79403E22CFF5932009CA9F8 /* Apollo+Extention.swift in Sources */,
+				E749CA352CFF51F700E81B12 /* AnimeListScreen.swift in Sources */,
+				E749CA372CFF520F00E81B12 /* AnimeRowView.swift in Sources */,
+				E79403EC2CFF5C3C009CA9F8 /* Subscruber.swift in Sources */,
+				E79403EA2CFF5C15009CA9F8 /* Publisher.swift in Sources */,
+				E749CA332CFF51B000E81B12 /* AnimeDetailsScreen.swift in Sources */,
 				E768B1662CFF3E4E00213534 /* ContentView.swift in Sources */,
 				E768B1642CFF3E4E00213534 /* AnimeListApp.swift in Sources */,
+				E768B18B2CFF449200213534 /* AnimeListModel.swift in Sources */,
+				E768B1882CFF440800213534 /* Network.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +490,47 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E79403ED2CFF5D79009CA9F8 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		E79D74F02CFFA8A700A9913D /* XCRemoteSwiftPackageReference "ApolloCombine" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joel-perry/ApolloCombine.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E749CA2C2CFF502B00E81B12 /* AnimeListSchema */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AnimeListSchema;
+		};
+		E79403EE2CFF5D79009CA9F8 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E79403ED2CFF5D79009CA9F8 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		E79403F02CFF5D79009CA9F8 /* ApolloSQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E79403ED2CFF5D79009CA9F8 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloSQLite;
+		};
+		E79D74F12CFFA8A700A9913D /* ApolloCombine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E79D74F02CFFA8A700A9913D /* XCRemoteSwiftPackageReference "ApolloCombine" */;
+			productName = ApolloCombine;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E768B1582CFF3E4E00213534 /* Project object */;
 }
