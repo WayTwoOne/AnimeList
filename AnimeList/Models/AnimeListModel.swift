@@ -8,61 +8,61 @@
 import Foundation
 import AnimeListSchema
 
-typealias AnimeData = AnimeListQuery.Data.Page
+internal typealias AnimeData = AnimeListQuery.Data.Page
 
-struct AnimeList: Codable {
-    var page: Page
+public struct AnimeList: Codable {
+    public var page: Page
 
-    enum CodingKeys: String, CodingKey {
+    public enum CodingKeys: String, CodingKey {
         case page = "Page"
     }
 }
 
-struct Page: Codable {
-    var mediaList: [MediaList]
+public struct Page: Codable {
+    public var mediaList: [MediaList]
     
-    init(_ animeData: AnimeData?) {
+    public init(_ animeData: AnimeData?) {
         self.mediaList = animeData?.mediaList?.map({ anime -> MediaList in
             MediaList(anime)
         }) ?? []
       }
 }
 
-struct MediaList: Codable, Identifiable {
-    var id = UUID()
+public struct MediaList: Codable, Identifiable {
+    public var id = UUID()
     
-    var media: Media
+    public var media: Media
     
-    init(_ anime: AnimeData.MediaList?) {
+    public init(_ anime: AnimeData.MediaList?) {
         self.media = Media(anime?.media)
     }
 }
 
-struct Media: Codable {
-    var title: Title
-    var coverImage: CoverImage
-    var description: String
+public struct Media: Codable {
+    public var title: Title
+    public var coverImage: CoverImage
+    public var description: String
     
-    init(_ anime: AnimeData.MediaList.Media?) {
+    public init(_ anime: AnimeData.MediaList.Media?) {
         self.title = Title(anime?.title)
         self.coverImage = CoverImage(anime?.coverImage)
         self.description = anime?.description ?? ""
     }
 }
 
-struct CoverImage: Codable {
-    var extraLarge: String
+public struct CoverImage: Codable {
+    public var extraLarge: String
     
-    init(_ anime: AnimeData.MediaList.Media.CoverImage?) {
+    public init(_ anime: AnimeData.MediaList.Media.CoverImage?) {
         self.extraLarge = anime?.extraLarge ?? ""
     }
 }
 
-struct Title: Codable {
-    var english: String?
-    var native: String
+public struct Title: Codable {
+    public var english: String?
+    public var native: String
     
-    init(_ anime: AnimeData.MediaList.Media.Title?) {
+    public init(_ anime: AnimeData.MediaList.Media.Title?) {
         self.english = anime?.english
         self.native = anime?.native ?? ""
     }

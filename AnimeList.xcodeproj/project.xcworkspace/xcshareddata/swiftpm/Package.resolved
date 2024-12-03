@@ -10,15 +10,6 @@
       }
     },
     {
-      "identity" : "apollocombine",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/joel-perry/ApolloCombine.git",
-      "state" : {
-        "revision" : "c96e8cd326df80bbec8fdba9b71d5061a7151e48",
-        "version" : "0.7.1"
-      }
-    },
-    {
       "identity" : "sqlite.swift",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/stephencelis/SQLite.swift.git",

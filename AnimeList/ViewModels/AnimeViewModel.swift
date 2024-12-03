@@ -8,29 +8,20 @@
 import Foundation
 import Combine
 import AnimeListSchema
+import Services
 
 class AnimeViewModel: ObservableObject {
+    
     @Published var animeList: [MediaList] = []
     @Published var page: GraphQLNullable<Int> = 1
     
     private var cancellable = Set<AnyCancellable>()
     
     
-    func fetchMedia() async throws {
-           Network.shared.apollo.fetch(query: AnimeListQuery(page: page)) { [weak self] result in
-               switch result {
-               case .success(let anime):
-                   if let animeList = anime.data?.page {
-                       guard let list = self?.process(with: animeList) else { return }
-                       self?.animeList += list
-                   } else if let errors = anime.errors {
-                       print("GraphQL errors \(errors)")
-                   }
-               case .failure(let error):
-                   print(error)
-               }
-           }
-       }
+    func fetchMedia() {
+       Netw
+        
+    }
 
        
        private func process(with data: AnimeData?) -> [MediaList] {
